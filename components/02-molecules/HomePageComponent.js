@@ -88,14 +88,15 @@ const HomePageComponent = () => {
                 place guided by the principles of my creative conscience.
               </p>
               <p className={classes.ethosText}>
+                Driven by solutions and fueled by community.
+              </p>
+              <p className={classes.ethosText}>
                 Gabriel Studios is that tuna poke bowl that hits the spot every
                 time.
               </p>
               <p className={classes.ethosText}>
-                Driven by solutions and fueled by community.
-              </p>
-              <p className={classes.ethosText}>
-                Asking new questions, and creating simplicity out of complexity.
+                Asking new kinds of questions, and creating simplicity out of
+                complexity.
               </p>
             </>
           )}
