@@ -59,9 +59,13 @@ const HomePageComponent = () => {
           {showAbout && (
             <>
               <h2 className={classes.mainText}>
-                Gabriel Studios is a full stack development and design thinking
-                studio based in Berkeley, CA.
+                Gabriel Studios is a full stack software development and design
+                thinking studio based in Berkeley, CA.
               </h2>
+              <p className={classes.mainText}>
+                We work with startups, creatives, and engineers to drive
+                innovative solutions.
+              </p>
               <p className={classes.contact}>
                 <a
                   href='mailto:gabe.wilk@gmail.com'
@@ -77,27 +81,28 @@ const HomePageComponent = () => {
             <>
               <p className={classes.ethosText}>
                 At a certain point in my life, I realized that being overly hard
-                on myself was hindering me from doing.
+                on myself was preventing me from starting projects.
               </p>
               <p className={classes.ethosText}>
                 So I spent some time thinking about things.
               </p>
               <p className={classes.ethosText}>
-                And in that moment of reflection, I realized that enabling
-                amazing people to manifest their visions would lead me to a
-                place guided by the principles of my creative conscience.
+                And realized that this feeling was quite common.
               </p>
               <p className={classes.ethosText}>
-                Driven by solutions and fueled by community.
+                It takes breaking down problems into simple answers.
               </p>
-              <p className={classes.ethosText}>
+              <p className={classes.ethosText}>With a good group of people.</p>
+              {/* <p className={classes.ethosText}>Fueled by community.</p> */}
+
+              {/* <p className={classes.ethosText}>
                 Gabriel Studios is that tuna poke bowl that hits the spot every
                 time.
-              </p>
-              <p className={classes.ethosText}>
+              </p> */}
+              {/* <p className={classes.ethosText}>
                 Asking new kinds of questions, and creating simplicity out of
                 complexity.
-              </p>
+              </p> */}
             </>
           )}
           {showClients && (
@@ -112,7 +117,7 @@ const HomePageComponent = () => {
                     CUCOLORIS PICTURES
                   </a>
                 </h2>
-                <h2 className={classes.mainText}>
+                {/* <h2 className={classes.mainText}>
                   <a
                     href='https://pineappleworkshop.com/'
                     rel='noreferrer'
@@ -120,7 +125,7 @@ const HomePageComponent = () => {
                   >
                     Pineapple Workshop
                   </a>
-                </h2>
+                </h2> */}
               </Box>
 
               <h2></h2>
@@ -137,7 +142,7 @@ const HomePageComponent = () => {
         }}
       >
         <Grid container>
-          <Grid item xs={3} sm={3}>
+          <Grid item xs={4} sm={4}>
             <h3
               className={classes.footerTitle}
               onClick={() => {
@@ -150,7 +155,7 @@ const HomePageComponent = () => {
               Home
             </h3>
           </Grid>
-          <Grid item xs={3} sm={3}>
+          <Grid item xs={4} sm={4}>
             <h3
               className={classes.footerTitle}
               onClick={() => {
@@ -162,7 +167,7 @@ const HomePageComponent = () => {
               About
             </h3>
           </Grid>
-          <Grid item xs={3} sm={3}>
+          {/* <Grid item xs={3} sm={3}>
             <h3
               className={classes.footerTitle}
               onClick={() => {
@@ -173,8 +178,8 @@ const HomePageComponent = () => {
             >
               Ethos
             </h3>
-          </Grid>
-          <Grid item xs={3} sm={3}>
+          </Grid> */}
+          <Grid item xs={4} sm={4}>
             <h3
               className={classes.footerTitle}
               onClick={() => {

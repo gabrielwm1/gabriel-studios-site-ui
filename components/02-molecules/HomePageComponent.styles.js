@@ -15,11 +15,11 @@ export const useStyles = makeStyles((theme) => ({
   '@keyframes bounce': {
     from: {
       color: theme.palette.primary.salmon,
-      transform: 'translate(0%, -30%)',
+      transform: 'translate(-30%, 0%)',
     },
     to: {
       color: theme.palette.primary.main,
-      transform: 'translate(0%, 100%)',
+      transform: 'translate(0%, 0%)',
     },
   },
   fade: {
@@ -40,18 +40,17 @@ export const useStyles = makeStyles((theme) => ({
     fontSize: '2.5rem',
     animationName: '$bounce',
     animationDuration: '1000ms',
-    animationIterationCount: 'infinite',
+    animationIterationCount: 1,
     animationDirection: 'alternate',
-    animationTimingFunction: 'cubic-bezier(0.9, 0, 0.9, 1)',
+    animationTimingFunction: 'cubic-bezier(0.9, 0, 0.4, 1)',
     // position: 'relative',
   },
   ethosText: {
     fontFamily: theme.typography.regular,
     color: theme.palette.primary.darkGrey,
-    fontSize: '1.1rem',
+    fontSize: '1rem',
   },
   mainText: {
-    // textAlign: 'center',
     fontFamily: theme.typography.bold,
     color: theme.palette.primary.darkGrey,
     fontSize: '1rem',
